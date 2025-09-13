@@ -25,7 +25,7 @@ Welcome to my GitHub! This is where I share my research code, experiments, and s
 ## 📌 Featured Projects  
 - 🔹 **[Urban Mobility Optimization](#)** – Algorithms for time-dependent constrained path optimization  
 - 🔹 **[Graph Algorithms Toolkit](#)** – Implementations of advanced graph search & routing techniques  
-- 🔹 **[Research Demos](#)** – Code supporting my publications and experimental studies  
+- 🔹 **[Vehicle Routing Problem with Loading-Unloading Cost](#)** – Algorithms to consider non-additive cost parameter in path optimization  
 
 *(More projects coming soon – check my repositories 👇)*  
 
@@ -34,8 +34,9 @@ Welcome to my GitHub! This is where I share my research code, experiments, and s
 ## 📫 Connect with Me  
 - 🌐 Website: [kousik-kr.github.io](https://kousik-kr.github.io/)  
 - 💼 GitHub: [github.com/kousik-kr](https://github.com/kousik-kr)  
-- 📝 Google Scholar: *(add your link if available)*  
-- ✉️ Email: *(add your professional email here)*  
+- 📝 Google Scholar: [scholar.google.com/kousik-kumar-dutta](https://scholar.google.com/citations?hl=en&user=cVei1KAAAAAJ)
+- ✉️ Email: [kousik.21csz0004@iitrpr.ac.in](kousik,21csz0004@iitrpr.ac.in)
+- 📚 Dblp: [dblp.org/kousik-kumar-dutta](https://dblp.org/pid/297/4783.html)  
 
 ---
 
