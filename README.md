@@ -2,7 +2,7 @@
   
 # 👋 Welcome to My Digital Research Lab!
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=3F78F7&center=true&vCenter=true&width=940&lines=Hi%2C+I'm+Kousik+Kumar+Dutta+%F0%9F%91%8B;Researcher+%7C+Algorithm+Enthusiast;Exploring+Graph+Theory+%26+Optimization;Building+Intelligent+Transportation+Systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=3F78F7&center=true&vCenter=true&width=940&lines=Hi%2C+I'm+Kousik+Kumar+Dutta+%F0%9F%91%8B;Researcher+%7C+Algorithm+Enthusiast+%F0%9F%94%AC;PhD+Scholar+%40+IIT+Ropar+%F0%9F%8E%93;Graph+Algorithms+%7C+Optimization+%F0%9F%9A%80" alt="Typing SVG" />
 
 <p align="center">
   <a href="https://kousik-kr.github.io/"><img src="https://img.shields.io/badge/Website-kousik--kr.github.io-blue?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
@@ -17,26 +17,37 @@
 
 ## 🎯 About Me
 
-```python
-class Researcher:
-    def __init__(self):
-        self.name = "Kousik Kumar Dutta"
-        self.role = "PhD Researcher & Algorithm Enthusiast"
-        self.location = "IIT Ropar, India"
-        self.research_interests = [
+```java
+public class Researcher {
+    private String name;
+    private String role;
+    private String location;
+    private String[] researchInterests;
+    private String currentFocus;
+
+    public Researcher() {
+        this.name = "Kousik Kumar Dutta";
+        this.role = "PhD Researcher & Algorithm Enthusiast";
+        this.location = "IIT Ropar, India";
+        this.researchInterests = new String[]{
             "Graph Algorithms",
             "Optimization Techniques",
             "Time-Dependent Routing",
             "Urban Mobility Systems",
             "Intelligent Transportation"
-        ]
-        self.current_focus = "Constrained Path Optimization & Non-additive Cost Functions"
+        };
+        this.currentFocus = "Constrained Path Optimization & Non-additive Cost Functions";
+    }  
     
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together!")
+    public void sayHi() {
+        System.out.println("Thanks for dropping by! Let's build something amazing together!");
+    }
 
-me = Researcher()
-me.say_hi()
+    public static void main(String[] args) {
+        Researcher me = new Researcher();
+        me.sayHi();
+    }
+}
 ```
 
 <div align="center">
@@ -58,9 +69,10 @@ me.say_hi()
 <div align="center">
 
 ### Programming Languages
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://www.iso.org/standard/74528.html)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 ### Databases & Tools
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
@@ -193,4 +205,4 @@ I'm always excited to collaborate on research projects, discuss algorithms, or c
 
 **⭐ Star my repositories if you find them useful • 🔄 Fork them to experiment • 🤝 Connect for collaboration!**
 
-</div>  
+</div>
