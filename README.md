@@ -207,7 +207,10 @@ I'm always excited to collaborate on research projects, discuss algorithms, or c
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
 ### 💭 Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+> “Bad luck is not for those who struggle, but for those who never struggle.”
+>
+> — Kousik Kumar Dutta
 
 ---
 
