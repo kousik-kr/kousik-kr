@@ -2,7 +2,7 @@
   
 # 👋 Welcome to My Digital Research Lab!
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=3F78F7&center=true&vCenter=true&width=940&lines=Hi%2C+I'm+Kousik+Kumar+Dutta+%F0%9F%91%8B;Researcher+%7C+Algorithm+Enthusiast+%F0%9F%94%AC;PhD+Scholar+%40+IIT+Ropar+%F0%9F%8E%93;Graph+Algorithms+%7C+Optimization+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=3F78F7&center=true&vCenter=true&width=940&lines=Hi%2C+I'm+Dr.+Kousik+Kumar+Dutta+%F0%9F%91%8B;Computer+Science+Researcher+%F0%9F%94%AC;Graph+Algorithms+%7C+Optimization+%7C+Mobility;Building+Reproducible+Research+Software+%F0%9F%9A%80" alt="Typing SVG" />
 
 <p align="center">
   <a href="https://kousik-kr.github.io/"><img src="https://img.shields.io/badge/Website-kousik--kr.github.io-blue?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
@@ -27,8 +27,8 @@ public class Researcher {
 
     public Researcher() {
         this.name = "Kousik Kumar Dutta";
-        this.role = "PhD Researcher & Algorithm Enthusiast";
-        this.location = "IIT Ropar, India";
+        this.role = "Dr. & Computer Science Researcher";
+        this.location = "India";
         this.researchInterests = new String[]{
             "Graph Algorithms",
             "Optimization Techniques",
@@ -36,7 +36,7 @@ public class Researcher {
             "Urban Mobility Systems",
             "Intelligent Transportation"
         };
-        this.currentFocus = "Constrained Path Optimization & Non-additive Cost Functions";
+        this.currentFocus = "Reproducible graph optimization and time-dependent routing systems";
     }  
     
     public void sayHi() {
@@ -52,15 +52,25 @@ public class Researcher {
 
 <div align="center">
 
-### 🚀 What I'm Currently Working On
+### 🚀 Current Status
 
 </div>
 
-- 🔬 **Researching** time-dependent graph algorithms for real-world applications
-- 🛣️ **Developing** novel approaches to vehicle routing with loading-unloading costs
-- 📊 **Optimizing** urban mobility systems using data-driven techniques
-- 🌱 **Learning** advanced parallel computing & distributed algorithms
-- 📝 **Writing** research papers on constrained path optimization
+I have completed my PhD and am now working as a **computer science researcher**. My
+research combines graph algorithms, combinatorial optimization, and practical
+transportation systems with implementations that can be tested and reproduced.
+
+<div align="center">
+
+### 🔬 Research in Progress
+
+</div>
+
+- **Time-dependent graph algorithms:** Building [EdgePulse](https://github.com/kousik-kr/EdgePulse), an in-memory Java graph library for time-dependent edge costs and custom routing algorithms.
+- **Profile-aware constrained routing:** Developing [PACE](https://github.com/kousik-kr/PACE), a research artifact for profile-aware candidate-envelope queries on FIFO time-dependent directed graphs.
+- **Vehicle routing and loading constraints:** Evaluating algorithms and ablations in [VRPLU-OptLoad](https://github.com/kousik-kr/VRPLU-OptLoad).
+- **Graph optimization research:** Maintaining experimental implementations such as [I-PC-Max](https://github.com/kousik-kr/I-PC-Max), alongside GPU and reinforcement-learning tooling.
+- **Reproducibility:** Publishing source code, experiment drivers, datasets/manifests, and validation workflows alongside research artifacts whenever possible.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -115,24 +125,24 @@ public class Researcher {
 <tr>
 <td width="50%">
 
-### 🚦 Urban Mobility Optimization
-**Time-Dependent Constrained Path Optimization**
+### ⚡ [EdgePulse](https://github.com/kousik-kr/EdgePulse)
+**Java graph library for time-dependent algorithms**
 
 ![Research](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 ![Algorithms](https://img.shields.io/badge/Focus-Algorithms-blue?style=flat-square)
 
-Advanced algorithms for optimizing routes in dynamic urban environments with real-time constraints.
+An in-memory graph foundation with time-indexed edge profiles, arrival-time interpolation, and algorithm-specific labels.
 
 </td>
 <td width="50%">
 
-### 🗺️ Graph Algorithms Toolkit
-**Advanced Search & Routing Techniques**
+### 🧭 [PACE](https://github.com/kousik-kr/PACE)
+**Profile-Aware Candidate Envelope**
 
 ![Implementation](https://img.shields.io/badge/Type-Implementation-orange?style=flat-square)
 ![Graph Theory](https://img.shields.io/badge/Domain-Graph_Theory-green?style=flat-square)
 
-Comprehensive toolkit of state-of-the-art graph algorithms for various routing scenarios.
+Research implementation and reproducibility artifact for constrained path-profile queries on directed graphs.
 
 </td>
 </tr>
@@ -140,23 +150,23 @@ Comprehensive toolkit of state-of-the-art graph algorithms for various routing s
 <tr>
 <td width="50%">
 
-### 🚛 Vehicle Routing with L-U Costs
-**Non-additive Cost Parameter Optimization**
+### 🚛 [VRPLU-OptLoad](https://github.com/kousik-kr/VRPLU-OptLoad)
+**Vehicle routing with loading and unloading constraints**
 
 ![Innovation](https://img.shields.io/badge/Innovation-High-red?style=flat-square)
 ![Optimization](https://img.shields.io/badge/Field-Optimization-purple?style=flat-square)
 
-Novel approach to VRP considering loading-unloading costs as non-additive parameters.
+A Java solver and experiment toolkit for route construction, feasibility checks, solver comparisons, and sensitivity studies.
 
 </td>
 <td width="50%">
 
-### 🔍 More Coming Soon...
-**Exploring New Frontiers**
+### 🧩 [I-PC-Max](https://github.com/kousik-kr/I-PC-Max)
+**Graph optimization experiments**
 
 ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square)
 
-Check out my repositories below for more exciting projects and research implementations!
+An active research repository for graph optimization experiments and algorithmic evaluation.
 
 </td>
 </tr>
